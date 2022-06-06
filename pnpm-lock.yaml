@@ -30,6 +30,7 @@ specifiers:
   eslint-plugin-react: 7.29.4
   eslint-plugin-react-hooks: 4.5.0
   jest: 27.5.1
+  ky: ^0.30.0
   nx: 14.1.9
   prettier: ^2.5.1
   react: 18.1.0
@@ -45,6 +46,7 @@ dependencies:
   '@emotion/react': 11.9.0_@types+react@18.0.8+react@18.1.0
   '@emotion/styled': 11.8.1_c518d5881adeea60a6659db82ca94b80
   core-js: 3.22.8
+  ky: 0.30.0
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   regenerator-runtime: 0.13.7
@@ -7590,6 +7592,11 @@ packages:
     resolution: {integrity: sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==}
     engines: {node: '>= 8'}
     dev: true
+
+  /ky/0.30.0:
+    resolution: {integrity: sha512-X/u76z4JtDVq10u1JA5UQfatPxgPaVDMYTrgHyiTpGN2z4TMEJkIHsoSBBSg9SWZEIXTKsi9kHgiQ9o3Y/4yog==}
+    engines: {node: '>=12'}
+    dev: false
 
   /language-subtag-registry/0.3.21:
     resolution: {integrity: sha512-L0IqwlIXjilBVVYKFT37X9Ih11Um5NEl9cbJIuU/SwP/zEEAbBPOnEeeuxVMf45ydWQRDQN3Nqc96OgbH1K+Pg==}
