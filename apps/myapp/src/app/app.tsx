@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { Mylib } from '@myorg/mylib';
 import NxWelcome from './nx-welcome';
 
 const StyledApp = styled.div`
@@ -8,6 +9,7 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
+      <Mylib />
       <NxWelcome title="myapp" />
     </StyledApp>
   );
